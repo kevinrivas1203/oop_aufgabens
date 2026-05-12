@@ -16,4 +16,7 @@ void main() {
   print('B.age : ${b.age}');
   b.age = 35;
   print('B.age : ${b.age}');
+
+  final c = Coche(modelo: 'opel', fechaUso: 2, numeroPuertas: 1);
+  print('uso ${c.fechaUso}');
 }
