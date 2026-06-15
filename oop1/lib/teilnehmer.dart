@@ -1,6 +1,6 @@
 class Teilnehmer {
   String lastName;
-  String firtsName;
+  String firstName;
   int? age;
   String? dateBirth;
   String? adrresse;
@@ -8,7 +8,7 @@ class Teilnehmer {
 
   Teilnehmer({
     required this.lastName,
-    required this.firtsName,
+    required this.firstName,
     this.age,
     this.dateBirth,
     this.adrresse,
@@ -32,5 +32,3 @@ class Coche {
     required this.fechaUso,
   });
 }
-
-enum EstadosUsuario { notlogeed, logeed, logging, registering }
